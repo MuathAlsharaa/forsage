@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,100&display=swap'); 
+
+*{
+    font-family: 'rawy-bold';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    
+ 
+}
+
+ .M90{
+    background: rgba(0,0,0,0.7) url('image/04.jpg');
+    background-blend-mode: darken; 
+    background-repeat:no-repeat;
+
+    background-size: cover;
+ 
+    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 490px) { 
+.M90{
+
+    background-position: center  center ;
+
+}
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { 
+    .M90{
+
+        background-position: top   ;
+    
+    }
+
+  }
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .M90{
+
+        background-position: bottom  ;
+    
+    }
+   } 
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+
+
+
+#NAV{
+    background-color: rgba(51, 48, 48, 0.425); 
+}
+
+
+
+
+#nav2{
+    /* background-color: rgb(70, 3, 3);   */
+    background-color:rgb(0, 0, 0) ;
+    
+   
+}
+
+
+
+#navbarSupportedContent ul li a{
+    color: yellow;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 490px) {
+    #icon1{
+        /* padding-left: 24px; */
+        padding-left: 14px;  
+    }
+            
+    }
+    
+     /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+    #icon1{
+    padding-left: 140px;
+  
+
+    }
+     }
+    
+    
+    
+    /*  Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+    #icon1{
+        padding-left: 245px;  
+
+    }
+     }
+
+
+
+
+li {
+    list-style-type: none;
+    }
+li a{
+    margin-left: 25px;
+}
+
+
+svg:hover{
+  
+    transition: 0.5s;  
+    color: rgb(0, 221, 255); 
+}
+
+svg{
+    color: rgb(212, 255, 0);
+}
+
+
+
+
+
+
+
+.sign{
+    background: rgba(8, 8, 8, 0.7) url('image/trad.jpg');
+    background-blend-mode: darken; 
+    background-repeat:no-repeat;
+box-sizing: border-box;
+    background-size: cover;
+}
+
+
+.trad{
+   /* background: rgba(0,0,0,0.7) url('image/999.jpg');  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+#bt{
+  height: 60px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    background-color:black ;
+    color: white;
+    cursor: pointer;
+}
+
+.card .card-title{
+ 
+  cursor: pointer;
+}
+
+/* لأحجام الشاشة الصغيرة */
+@media screen and (min-width: 576px) {
+  .card {
+    width: 100%;
+    /* margin-bottom: 10px; */
+   
+
+  }
+  .card-img-top {
+    height: 150px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+/* لأحجام الشاشة المتوسطة */
+@media screen and (min-width: 768px) {
+  .card {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    height: 200px;
+  }
+  .card-title {
+    font-size: 20px;
+ 
+  }
+  .card-text {
+    font-size: 16px;
+  }
+}
+
+/* لأحجام الشاشة الكبيرة */
+@media screen and (min-width: 992px) {
+  .card {
+    width: 100%; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    /* height: 250px; */
+  }
+  .card-title {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 18px;
+  }
+}
+
+/* لأحجام الشاشة الأكبر من 1200 بكسل */
+@media screen and (min-width: 1200px) {
+  .card {
+    /* width: 22%; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    height: 300px;
+  }
+  .card-title {
+    font-size: 28px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+}
+
+h1{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* sign */
+ #signin{
+  background-color: rgb(41, 36, 36);
+}
+
+
+
+.SIGN{
+
+   color: rgb(0, 255, 72); 
+}
+ 
+
+
+
+.oo{
+  color: rgb(0, 255, 72);
+}
+.ic{
+  color: rgb(255, 255, 255);
+
+
+} 
+
+icon #icc{
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fo{
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
